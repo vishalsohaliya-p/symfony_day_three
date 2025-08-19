@@ -10,7 +10,7 @@ class MessageGenerator
             'You did it! Great job!',
             'Keep going, success is near!',
             'You are awesome!',
-        ]
+        ];
 
         return $messages[array_rand($messages)];
     }
